@@ -1,0 +1,7 @@
+rm -rf .git
+git init
+git add .
+git commit -m "uploading EasyMed to github"
+git branch -M master
+git remote add origin https://github.com/Princysingh24/EasyMed-Healthcare2.git
+git push -u origin master
